@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://image.ibb.co/f4rgU7/viusasa_fevicon.png" rel="shortcut icon" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Le App</title>
+    <link rel="stylesheet" href="./bootstrap/css/">
+    <link rel="stylesheet" href="./bootstrap/js/">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.1.0/jssocials-theme-flat.css" /> -->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="text/jquery-te-1.4.0.css">
+    <!-- <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.1.0/jssocials.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <script src="//code.tidio.co/slyuf05jnfhjh8pmzswpjqa9hv6wuyim.js" type="c1dddf1a8e854b0a05becb3d-text/javascript"></script>
+    <script type="c1dddf1a8e854b0a05becb3d-text/javascript" src="javascript/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo">
+            <a href="./index.html"> <img src="https://image.ibb.co/cyWjdp/viusasa_logo.png" class="hidden-sm hidden-xs" alt="Citizen Logo" />
+                <img src="https://image.ibb.co/cyWjdp/viusasa_logo.png" class="hidden-lg hidden-md" alt="Citizen Logo">
+            </a>
+        </div>
+        <div id="navigator">
+            <div class="nav">
+                <a href="#"> <i class="glyphicon glyphicon-book"></i> <span class="hidden-xs hidden-sm">Tenders</span></a>
+            </div>
+            <div class="nav">
+                <a href="#">
+                    <i class="fa fa-truck blue" data-toggle="tooltip" title="Suppliers" data-placement="bottom"></i>
+                    <span class="hidden-xs hidden-sm">Suppliers</span>
+                </a>
+            </div>
+            <div class="nav">
+                <a href="#"><i class="fa fa-rss gold" data-toggle="tooltip" title="Subscribe" data-placement="bottom"></i> <span class="hidden-xs hidden-sm">Subscribe</span></a>
+            </div>
+            <div class="nav dropdown">
+                <span class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-plus-square"></i> <span class="hidden-xs hidden-sm">More</span>
+                </span>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class="glyphicon glyphicon-info-sign green"></i> Tips</a></li>
+                    <li><a href="#about-us"><i class="glyphicon glyphicon-thumbs-up text-primary"></i> About Us</a></li>
+                    <li><a href="#contact-us"><i class="glyphicon glyphicon-envelope text-success"></i> Contact Us</a></li>
+                    <li><a href="#"><i class="fa fa-pie-chart purple"></i> Statistics</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-usd"></i> Finance</a></li>
+                </ul>
+            </div>
+            <div class="pull-right hidden-xs" id="more-navigators">
+
+                <div class="nav">
+                    <a href="#">
+                        <i class="glyphicon glyphicon-briefcase"></i>
+                        <span class="hidden-xs hidden-sm hidden-md">Companies</span>
+                    </a>
+                </div>
+                <div class="nav">
+                    <a href="#"><i class="fa fa-lock green" data-toggle="tooltip" title="Sign In" data-placement="bottom"></i> <span class="hidden-xs hidden-sm hidden-md">
+                        Sign In</span></a>
+                </div>
+                <div class="nav">
+                    <a href="#"><i class="fa fa-pencil-square-o blue" data-toggle="tooltip" title="Register" 
+                        data-placement="bottom"></i> <span class="hidden-xs hidden-sm hidden-md">Register</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- body content begins -->
+
+
+    <div id="body">
+        <div id="filters-holder " class="btnColor">
+            <div>
+                <br>
+                <div class="row pad">
+
+                    <div class="col-sm-2">
+
+                        <div class="form-group">
+                            <select id="category-filter" name="category-filter" class="form-control filter-item">
+                                <option value="">Select a Category...</option>
+                                <option value="category:Multiple:1">Multiple</option>
+                                <option value="category:Agriculture-and-related-services:2">Agriculture-and-related-services</option>
+                                <option value="category:Banking,-Finance,-Insurance-AND-Securities-(BFIS):3">Banking,-Finance,-Insurance-AND-Securities-(BFIS)</option>
+                                <option value="category:BFIS---Insurance:4">BFIS---Insurance</option>
+                                <option value="category:BFIS---Merger-AND-Acquisition:5">BFIS---Merger-AND-Acquisition</option>
+                                <option value="category:BFIS---Auditing:6">BFIS---Auditing</option>
+                                <option value="category:Business-Processing-Organisation-(BPO):7">Business-Processing-Organisation-(BPO)</option>
+                                <option value="category:Consultancy:8">Consultancy</option>
+                                <option value="category:Consultancy---Architectural:9">Consultancy---Architectural</option>
+                                <option value="category:Consultancy---Education:10">Consultancy---Education</option>
+                                <option value="category:Consultancy---Engineering:11">Consultancy---Engineering</option>
+                                <option value="category:Consultancy---Financial:12">Consultancy---Financial</option>
+                                <option value="category:Consultancy--Health:13">Consultancy--Health</option>
+                                <option value="category:Consultancy--HR:14">Consultancy--HR</option>
+                                <option value="category:Consultancy--IT:15">Consultancy--IT</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            <select id="category-filter" name="category-filter" class="form-control filter-item">
+                                <option value="">Select a Sector...</option>
+                                <option value="sector:Private:1">Private</option>
+                                <option value="sector:NGO:2">NGO</option>
+                                <option value="sector:Public:3">Public</option>
+                                <option value="sector:Institution:4">Institution</option>
+                                <option value="sector:Parastatal:5">Parastatal</option>
+                                <option value="sector:Church:6">Church</option>
+                                <option value="sector:Sacco:7">Sacco</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            <select id="category-filter" name="category-filter" class="form-control filter-item">
+                                <option value="">Select a Tag...</option>
+                                <option value="tag:Youth:1">Youth</option>
+                                <option value="tag:ICT:2">ICT</option>
+                                <option value="tag:Agricultural:3">Agricultural</option>
+                                <option value="tag:Construction:4">Construction</option>
+                                <option value="tag:CDF:5">CDF</option>
+                                <option value="tag:Baringo-North:6">Baringo-North</option>
+                                <option value="tag:Ministry-of--Planning-and-Devolution:7">Ministry-of--Planning-and-Devolution</option>
+                                <option value="tag:KEPHIS:8">KEPHIS</option>
+                                <option value="tag:Disposal-of-Obsolete-Items:9">Disposal-of-Obsolete-Items</option>
+                                <option value="tag:UN:10">UN</option>
+                                <option value="tag:Consultancy:11">Consultancy</option>
+                                <option value="tag:Request-for-Proposal:12">Request-for-Proposal</option>
+                                <option value="tag:WFP:13">WFP</option>
+                                <option value="tag:Pre-bidding-meeting:14">Pre-bidding-meeting</option>
+                                <option value="tag:INVITATION-TO-TENDER:15">INVITATION-TO-TENDER</option> 
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            <select id="category-filter" name="category-filter" class="form-control filter-item">
+                                <option value="">Select a Type...</option>
+                                <option value="type:Invitation-toTender:1">Invitation-toTender</option>
+                                <option value="type:Request-For-Quotation:2">Request-For-Quotation</option>
+                                <option value="type:Expression-of-Interest:3">Expression-of-Interest</option>
+                                <option value="type:Call-For-Proposals:4">Call-For-Proposals</option>
+                                <option value="type:Cancellation-of-Tender:5">Cancellation-of-Tender</option>
+                                <option value="type:Extension-of-Tender:6">Extension-of-Tender</option>
+                                <option value="type:EOI-Prequalification:7">EOI-Prequalification</option>
+                                <option value="type:Re-advertised:8">Re-advertised</option>
+                                <option value="type:Request-for-Proposals:9">Request-for-Proposals</option>
+                                <option value="type:RFP-Pre-Qualification:10">RFP-Pre-Qualification</option>
+                                <option value="type:Invitation-for-Bids:11">Invitation-for-Bids</option>
+                                <option value="type:Request-for-Proposals-Request-for-Quotation:12">Request-for-Proposals-Request-for-Quotation</option>
+                                <option value="type:Pre-Qualification:13">Pre-Qualification</option>
+                                <option value="type:Addendum:14">Addendum</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            <button type="submit" class="button_redtheme" id="filter-tenders-btn"><i class="glyphicon glyphicon-filter"></i> Filter Tenders</button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <form class="form" method="post">
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            <input type="search" name="search" placeholder="Tender Description..." class="form-control" /> </div>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="submit" class="button_redtheme"><i class="glyphicon glyphicon-search"></i> Search</button>
+                    </div>
+                </form>
+
+
+                <br>
+            </div>
+        </div>
+        <div>
+            <div id="tenders-list">
+                <div class="col-sm-12">
+
+                    <div class="row fit-in">
+                        <div class="pull-right ">
+                            <h4><i class="glyphicon glyphicon-eye-open pull-right "></i> Viewing 1 - 20 of 119,582 tenders in <strong>Citizen</strong></h4>
+                        </div>
+                        <hr>
+
+
+                    </div>
+
+
+                    <!-- Tender Listings started here -->
+                    <!-- First Tender -->
+
+                    <div class="tender-listing ">
+                        <div class="company-pic col-md-2 col-sm-10 text-center">
+                            <a href="./tender/index.html"> <img src="./img/companies/KWTA.png" width="100" height="100" class="img-responsive text-center pull-left" /></a>
+                        </div>
+                        <h2 class="new">
+                            <a href="tender/index.html" target="_blank">SUPPLY OF WATER PIPES</a>
+                            <span class="label label-danger ts">New</span> </h2>
+                        <div class="row size-4">
+                            <div class="col-sm-12 pull-right">
+                                <b><i class="glyphicon glyphicon-briefcase"></i> Company</b> : <a href="./tender/index.html">MINISTRY OF WATER</a> &nbsp;&nbsp;
+                                <p class="pull-right"> <b><i class="glyphicon glyphicon-tag " ></i> Sector </b>: <a href="./tender/index.html">Parastatal</a>
+                                </p>
+                            </div>
+                            <div class="col-sm-12">
+                                <b><i class="fa fa-calendar" ></i> Closing Date</b> : 2019-9-16 <span class="badge green-bg">1 days </span> &nbsp;&nbsp;
+                                <p class="pull-right"> <b><i class="glyphicon glyphicon-tag"></i> Category</b> : <a href="./tender/index.html">Ministry-of--Planning-and-Devolution</a>
+                                </p>
+                                <a href="tenders/tag:"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second Tender -->
+                    <div class="tender-listing">
+                        <div class="company-pic col-md-2 col-sm-10 text-center">
+                            <a href="./tender/flowers.html"> <img src="./img/companies/kenya-40-shillings-coin.jpg" width="100" height="100" class="img-responsive text-center pull-left" />
+                            </a>
+                        </div>
+                        <h2 class="new">
+                            <a href="tender/flowers.html" target="_blank">DELIVERY OF FLOWERS AND FLOWER PRODUCTS</a>
+                        </h2>
+                        <div class="row size-4">
+                            <div class="col-sm-12">
+                                <b><i class="glyphicon glyphicon-briefcase"></i> Company</b> : <a href="./tender/flowers.html">UNCLAIMED FINANCIAL ASSESTS AUTHORITY</a>
+                                <b><p class="pull-right"> <i class="glyphicon glyphicon-tag " ></i>  Sector </b>: <a href="./tender/flowers.html">Parastatal</a> </p>
+                            </div>
+
+
+                            <div class="col-sm-12">
+                                <b><i class="fa fa-calendar" ></i> Closing Date</b> : 2019-9-16 <span class="badge green-bg">1 days </span>
+                                <b>    <p class="pull-right"> <i class="glyphicon glyphicon-tag"></i> Category</b> : <a href="./tender/flowers.html">Industry-Printing & Publishing</a></p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- Third Tender -->
+                    <div class="tender-listing ">
+                        <div class="company-pic col-md-2 col-sm-10 text-center">
+                            <a href="tender/kplc.html"> <img src="./img/companies/Kenya Power logo 2011.png" width="100" height="100" class="img-responsive text-center pull-left" />
+                            </a>
+                        </div>
+                        <h2 class="new">
+                            <a href="tender/kplc.html" target="_blank">DELIVERY OF STREET LIGHTS</a>
+                        </h2>
+                        <div class="row size-4">
+                            <div class="col-sm-12  ">
+                                <b><i class="glyphicon glyphicon-briefcase"></i> Company</b> : <a href="./tender/kplc.html">KENYA POWER AND LIGHTING COMPANY </a>
+                                <p class="pull-right"> <b><i class="glyphicon glyphicon-tag " ></i> Sector </b>: <a href="./tender/kplc.html">Infrastructure</a> </p>
+                            </div>
+                            <div class="col-sm-12">
+                                <b><i class="fa fa-calendar" ></i> Closing Date</b> : 2019-9-26 <span class="badge green-bg">10 days </span>
+                                <p class="pull-right"> <b><i class="glyphicon glyphicon-tag"></i> Category</b> : <a href="./tender/kplc.html">Street Lighting</a> </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <!-- Tender Listings ends here -->
+                    <div class="row fit-in">
+                        <div class="pull-left">
+                            <h4><i class="glyphicon glyphicon-eye-open"></i> Viewing 1 - 20 of 12619 tenders in <strong>Kenya</strong></h4>
+                        </div>
+                        <hr>
+                        <div class="btn-group btn-group-sm pull-right " role="group">
+                            <a role="button" class="btn btn-primary vtheme" href="#"><i class="glyphicon glyphicon-chevron-left"></i> <span class="hidden-xs hidden-sm">Prev</span></a>
+                            <select role="button" class="page-navigation-select btn  vthemes">
+<option class="vthemes" value="/kenya/tender/page/1" selected>1</option>
+<option class="vthemes"value="/kenya/tender/page/2">2</option>
+<option class="vthemes"value="/kenya/tender/page/3">3</option>
+<option class="vthemes"value="/kenya/tender/page/4">4</option>
+<option class="vthemes" value="/kenya/tender/page/5">5</option>
+<option class="vthemes"value="/kenya/tender/page/6">6</option>
+<option class="vthemes"value="/kenya/tender/page/7">7</option>
+<option class="vthemes"value="/kenya/tender/page/8">8</option>
+<option class="vthemes"value="/kenya/tender/page/9">9</option>
+<option class="vthemes"value="/kenya/tender/page/10">10</option> 
+</select>
+                            <a role="button" class="btn btn-primary vtheme" href="#"><span class="hidden-xs hidden-sm">Next</span> <i class="glyphicon glyphicon-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+ 
+    <!-- Body content ends -->
+
+    <!-- footer Starts -->
+
+    <!--<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>-->
+    <!--<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="c1dddf1a8e854b0a05becb3d-|49" defer=""></script>-->
+</body> 
+<script type="040604ea02261d6aec20abb0-text/javascript" src="text/jquery-te-1.4.0.min.js"></script>
+<script type="040604ea02261d6aec20abb0-text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="040604ea02261d6aec20abb0-text/javascript" src="javascript/print.js"></script> 
+
+</html>
